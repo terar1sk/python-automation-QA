@@ -38,7 +38,7 @@ pipeline{
     post{
         always{
             mail(
-                to: 'InsertYour@Mail.Here',
+                to: 'isaidima30@gmail.com',
                 subject: "Jenkins Build ${currentBuild.fullDisplayName} - ${currentBuild.result}",
                 body: """
 Build: ${currentBuild.fullDisplayName}
